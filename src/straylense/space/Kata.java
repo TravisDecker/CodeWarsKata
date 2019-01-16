@@ -28,5 +28,14 @@ public class Kata {
     return false;
   }
 
+//Given a non-empty array of integers, return the result of multiplying the values together in order.
+  public static int grow(int[] x){
+    int result = 1;
+    for (int c : x){
+      result = result * c;
+    }
+  return result;
+  }
+
 
 }
