@@ -14,6 +14,8 @@ public class Kata {
 //  Array can contain numbers or strings. X can be either.
 //  Return true if the array contains the value, false if not.
   public static boolean check(Object[] a, Object x) {
+    // way better response, Not mine.
+    //return Arrays.asList(a).contains(x);
     for (Object c : a){
       if (c instanceof String) {
         if (c.equals(x))
